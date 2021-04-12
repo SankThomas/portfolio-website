@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Header from "../components/header"
 import MetaContent from "../components/metacontent"
+import Showcase from "../components/showcase"
 
 export default function Home() {
   return (
@@ -14,9 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="container">
-        <Header />
-      </div>
+      <Header />
+      <Showcase />
     </>
   )
 }
