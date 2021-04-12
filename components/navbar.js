@@ -10,12 +10,11 @@ const Navbar = () => {
         {items.map((item) => {
           const { id, title, path } = item
           return (
-            <li
-              key={id}
-              className="py-1 px-4 m-1 bg-gray-100 border-2 border-gray-100 shadow-sm hover:bg-gray-300 transition-all duration-500 hover:border-gray-300"
-            >
+            <li key={id}>
               <Link href={path}>
-                <a>{title}</a>
+                <a className="py-1 px-4 m-1 bg-gray-100 border-2 border-gray-100 shadow-sm hover:bg-gray-300 transition-all duration-500 hover:border-gray-300">
+                  {title}
+                </a>
               </Link>
             </li>
           )
