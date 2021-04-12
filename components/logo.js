@@ -6,7 +6,7 @@ const logo = () => {
     <>
       <div>
         <Link href="/">
-          <a className="text-4xl uppercase font-bold">Sankara</a>
+          <a className="text-4xl font-bold">TsbSankara</a>
         </Link>
       </div>
     </>
