@@ -7,6 +7,7 @@ const metacontent = () => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="X-UA-Compatible" content="IE=7" />
       <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+      <meta name="theme-color" content="#111827" />
       <meta name="description" content="Thomas Sankara Portfolio Website" />
       <meta
         name="keywords"
